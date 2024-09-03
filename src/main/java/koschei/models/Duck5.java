@@ -8,8 +8,9 @@ public class Duck5 {
 
     private Egg6 egg6;
 
+    //    Через конструктор
     @Autowired
-    public void Duck5(Egg6 egg6){
+    public void Duck5(Egg6 egg6) {
         this.egg6 = egg6;
     }
 

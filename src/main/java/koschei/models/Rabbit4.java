@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Rabbit4 {
 
-@Autowired
+    // Через поле
+    @Autowired
     private Duck5 duck5;
 
     @Override

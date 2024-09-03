@@ -8,8 +8,14 @@ public class Egg6 {
 
     private Needle7 needle7;
 
+//    @Autowired
+//    public Egg6(Needle7 needle7) {
+//        this.needle7 = needle7;
+//    }
+
+    //    Через сеттер
     @Autowired
-    Egg6(Needle7 needle7){
+    public void setNeedle7(Needle7 needle7) {
         this.needle7 = needle7;
     }
 
